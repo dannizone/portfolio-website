@@ -1,0 +1,87 @@
+#wrap { width: 100%; height: auto; margin: auto; background-color: #fff; font-family: 'Montserrat', sans-serif ,'Noto Sans KR', sans-serif; }
+
+h2 { font-weight: 700; color: #0a0a0a; }
+
+#headBox { width: 100%; height: 80px; padding-top: 40px; box-sizing: border-box; }
+
+#headBox .headCon { width: 1280px; height: 40px; margin: auto; }
+
+#headBox .headCon > h1 { float: left; width: 58px; height: 100%; font-weight: 700; font-size: 1.25rem; color: #0a0a0a; line-height: 40px; }
+
+#headBox .headCon > h1 a { width: 100%; height: 100%; display: block; }
+
+#headBox .headCon #gnb { float: right; width: 950px; height: 100%; }
+
+#headBox .headCon #gnb .navBox { float: right; width: auto; height: 100%; }
+
+#headBox .headCon #gnb .navBox > li { float: left; width: auto; height: 100%; margin-right: 50px; line-height: 40px; }
+
+#headBox .headCon #gnb .navBox > li:last-child { margin-right: 0; }
+
+#headBox .headCon #gnb .navBox > li > a { width: 100%; height: 100%; display: block; color: #0a0a0a; font-size: 16px; font-weight: 400; }
+
+#headBox .headCon #gnb .navBox > li > a > span { font-weight: 700; border-bottom: 1px solid #0a0a0a; }
+
+#content { width: 100%; height: auto; }
+
+#content .worksBox { width: 1280px; height: 1500px; margin: auto; }
+
+#content .worksBox .worksCon { float: right; width: 950px; height: 1285px; padding-top: 70px; box-sizing: border-box; }
+
+#content .worksBox .worksCon > h2 { width: 70px; height: 22px; font-size: 20px; font-weight: 400; color: #0a0a0a; }
+
+#content .worksBox .worksCon > .intro { margin-top: 80px; box-sizing: border-box; width: 100%; height: 500px; border-bottom: 1px solid #ccc; }
+
+#content .worksBox .worksCon > .intro > dt { width: auto; height: auto; line-height: 5.125rem; font-size: 80px; font-weight: 700; color: #0a0a0a; }
+
+#content .worksBox .worksCon > .intro > dd { width: 100%; height: auto; font-size: 1.25rem; font-weight: 700; color: #333; line-height: 1.875rem; margin-top: 70px; }
+
+#content .worksBox .worksCon > .intro > dd:last-child { font-size: 1rem; font-weight: normal; }
+
+#content .worksBox .worksCon .experience { width: 100%; height: auto; margin-top: 30px; border-bottom: 1px solid #ccc; padding-bottom: 20px; box-sizing: border-box; }
+
+#content .worksBox .worksCon .experience h3 { width: auto; height: auto; font-size: 20px; font-weight: bold; }
+
+#content .worksBox .worksCon .experience .dl_con { width: 100%; height: auto; padding-top: 16px; box-sizing: border-box; }
+
+#content .worksBox .worksCon .experience .dl_con > dl { width: 100%; height: 34px; word-spacing: -4px; }
+
+#content .worksBox .worksCon .experience .dl_con > dl > dt { float: left; width: auto; margin-right: 20px; height: 22px; font-size: 16px; color: #777; }
+
+#content .worksBox .worksCon .experience .dl_con > dl > dd { float: right; width: 800px; height: 22px; font-size: 16px; color: #333; }
+
+#content .worksBox .worksCon .skils { width: 100%; height: auto; margin-top: 30px; border-bottom: 1px solid #ccc; padding-bottom: 20px; box-sizing: border-box; }
+
+#content .worksBox .worksCon .skils h3 { width: auto; height: auto; font-size: 20px; font-weight: bold; }
+
+#content .worksBox .worksCon .certificate { width: 100%; height: auto; margin-top: 30px; border-bottom: 1px solid #ccc; padding-bottom: 20px; box-sizing: border-box; }
+
+#content .worksBox .worksCon .certificate h3 { width: auto; height: auto; font-size: 20px; font-weight: bold; }
+
+#content .worksBox .worksCon .certificate .certificate_dl { width: 100%; height: auto; padding-top: 16px; box-sizing: border-box; }
+
+#content .worksBox .worksCon .certificate .certificate_dl > dl { width: 100%; height: 34px; word-spacing: -4px; }
+
+#content .worksBox .worksCon .certificate .certificate_dl > dl > dt { float: left; width: auto; height: 22px; font-size: 16px; color: #777; }
+
+#content .worksBox .worksCon .certificate .certificate_dl > dl > dd { float: right; width: 800px; height: 22px; font-size: 16px; color: #333; }
+
+#footBox { width: 100%; height: 264px; margin: auto; padding-top: 51px; box-sizing: border-box; }
+
+#footBox .footCon { width: 1280px; height: 100%; margin: auto; padding-top: 30px; box-sizing: border-box; }
+
+#footBox .footCon h3 { width: auto; height: auto; font-size: 16px; font-weight: 700; }
+
+#footBox .footCon h3 > a { display: block; width: 100%; height: 100%; color: #0a0a0a; }
+
+#footBox .footCon ul { width: 100%; height: 78px; }
+
+#footBox .footCon ul li { float: left; width: auto; height: auto; margin-right: 22px; font-size: 13px; font-weight: 400; line-height: 40px; }
+
+#footBox .footCon ul li:nth-child(3) { margin-right: 0; }
+
+#footBox .footCon ul li:last-child { float: right; width: auto; height: auto; margin-right: 0; font-size: 12px; font-weight: 400; color: #0a0a0a; line-height: 22px; }
+
+#footBox .footCon ul li > a { display: block; width: 100%; height: 100%; color: #0a0a0a; }
+
+#footBox .footCon p { float: right; width: auto; height: auto; font-size: 12px; }

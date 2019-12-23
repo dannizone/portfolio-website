@@ -1,0 +1,23 @@
+#wrap { width: 100%; height: auto; margin: auto; background-color: #fff; font-family: 'Montserrat', sans-serif ,'Noto Sans KR', sans-serif; }
+
+h2 { font-weight: 700; color: #0a0a0a; }
+
+#headBox { width: 100%; height: 80px; padding-top: 40px; box-sizing: border-box; }
+
+#headBox .headCon { width: 1280px; height: 40px; margin: auto; }
+
+#headBox .headCon > h1 { float: left; width: 58px; height: 100%; font-weight: 700; font-size: 1.25rem; color: #0a0a0a; line-height: 40px; }
+
+#headBox .headCon > h1 a { width: 100%; height: 100%; display: block; }
+
+#headBox .headCon #gnb { float: right; width: 950px; height: 100%; }
+
+#headBox .headCon #gnb .navBox { float: right; width: auto; height: 100%; }
+
+#headBox .headCon #gnb .navBox > li { float: left; width: auto; height: 100%; margin-right: 50px; line-height: 40px; }
+
+#headBox .headCon #gnb .navBox > li:last-child { margin-right: 0; }
+
+#headBox .headCon #gnb .navBox > li > a { width: 100%; height: 100%; display: block; color: #0a0a0a; font-size: 16px; font-weight: 400; }
+
+#headBox .headCon #gnb .navBox > li > a > span { font-weight: 700; border-bottom: 1px solid #0a0a0a; }
